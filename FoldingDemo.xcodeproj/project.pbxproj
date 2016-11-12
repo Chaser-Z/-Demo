@@ -14,6 +14,9 @@
 		68BFAC2A1DCB290D00B8A70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BFAC281DCB290D00B8A70E /* LaunchScreen.storyboard */; };
 		68BFAC351DCB290D00B8A70E /* FoldingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BFAC341DCB290D00B8A70E /* FoldingDemoTests.swift */; };
 		68BFAC401DCB290D00B8A70E /* FoldingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BFAC3F1DCB290D00B8A70E /* FoldingDemoUITests.swift */; };
+		68BFAC4E1DCB297E00B8A70E /* Kiluya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68BFAC4D1DCB297E00B8A70E /* Kiluya.jpg */; };
+		68BFAC501DCB299B00B8A70E /* FoldIngView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BFAC4F1DCB299B00B8A70E /* FoldIngView.swift */; };
+		68BFAC521DCB50FD00B8A70E /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BFAC511DCB50FD00B8A70E /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		68BFAC3B1DCB290D00B8A70E /* FoldingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BFAC3F1DCB290D00B8A70E /* FoldingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingDemoUITests.swift; sourceTree = "<group>"; };
 		68BFAC411DCB290D00B8A70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BFAC4D1DCB297E00B8A70E /* Kiluya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kiluya.jpg; sourceTree = "<group>"; };
+		68BFAC4F1DCB299B00B8A70E /* FoldIngView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldIngView.swift; sourceTree = "<group>"; };
+		68BFAC511DCB50FD00B8A70E /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		68BFAC1E1DCB290D00B8A70E /* FoldingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				68BFAC4F1DCB299B00B8A70E /* FoldIngView.swift */,
 				68BFAC1F1DCB290D00B8A70E /* AppDelegate.swift */,
 				68BFAC211DCB290D00B8A70E /* ViewController.swift */,
 				68BFAC231DCB290D00B8A70E /* Main.storyboard */,
 				68BFAC261DCB290D00B8A70E /* Assets.xcassets */,
+				68BFAC4D1DCB297E00B8A70E /* Kiluya.jpg */,
 				68BFAC281DCB290D00B8A70E /* LaunchScreen.storyboard */,
 				68BFAC2B1DCB290D00B8A70E /* Info.plist */,
+				68BFAC511DCB50FD00B8A70E /* NextViewController.swift */,
 			);
 			path = FoldingDemo;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BFAC4E1DCB297E00B8A70E /* Kiluya.jpg in Resources */,
 				68BFAC2A1DCB290D00B8A70E /* LaunchScreen.storyboard in Resources */,
 				68BFAC271DCB290D00B8A70E /* Assets.xcassets in Resources */,
 				68BFAC251DCB290D00B8A70E /* Main.storyboard in Resources */,
@@ -263,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				68BFAC221DCB290D00B8A70E /* ViewController.swift in Sources */,
+				68BFAC521DCB50FD00B8A70E /* NextViewController.swift in Sources */,
+				68BFAC501DCB299B00B8A70E /* FoldIngView.swift in Sources */,
 				68BFAC201DCB290D00B8A70E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
